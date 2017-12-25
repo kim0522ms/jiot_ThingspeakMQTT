@@ -66,7 +66,7 @@ public class MQTTController  {
 			sampleClient = new MqttClient(broker, id, persistence);
 			
 			// MQTT API KEY. Thingspeak에 연결하기 위해서는 중복되지 않는 userid와 MQTT APIKEY를 비밀번호로 입력해야한다.
-			char[] passwd = "MDPE5HP0XOIDPK8G".toCharArray();
+			char[] passwd = "<Your MQTT API KEY>".toCharArray();
 			
 			connOpt.setUserName(id);
 			connOpt.setPassword(passwd);
