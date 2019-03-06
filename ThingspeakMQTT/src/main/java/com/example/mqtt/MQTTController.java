@@ -219,7 +219,7 @@ public class MQTTController  {
 				}
 			}
 		}
-		
+		// Hi
 		else
 		{
 			System.out.println("Invalied command!");
